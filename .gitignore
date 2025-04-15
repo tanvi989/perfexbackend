@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Optional npm cache directory
+.npm/
+
+# VSCode settings (optional)
+.vscode/
+
+# Others you might want
+coverage/
