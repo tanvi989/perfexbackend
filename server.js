@@ -4,9 +4,11 @@ const { v4: uuidv4 } = require('uuid');
 const app = express();
 
 app.use(express.json());
+require('dotenv').config();
 
-const API_KEY = 'key_gwz8VqENXY';
-const FROM_NUMBER = '+919875097159';
+const API_KEY = process.env.API_KEY;
+const FROM_NUMBER = process.env.FROM_NUMBER;
+
 
 const templateMap = {
   option1: {
